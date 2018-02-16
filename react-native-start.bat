@@ -1,0 +1,4 @@
+@echo off
+set projectName=%1
+set source=%cd%
+react-native init %projectName% && cd %projectName% && yarn add react-redux redux redux-thunk react-native-swiper redux-devtools-extension react-navigation react-native-spinkit react-native-vector-icons && rnpm link react-native-spinkit && rnpm link react-native-vector-icons && mkdir src && copyFolder "E:\Coding_Files\scripts\reactNativeStarter\src" "%source%\%projectName%\src" && del /f App.js && del /f index.js && @echo import { AppRegistry } from 'react-native'; > index.js && @echo import App from './src/App'; >> index.js && @echo AppRegistry.registerComponent('%projectName%', () =^> App); >> index.js

@@ -1,0 +1,81 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++",
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32",
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward",
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include",
+                "C:/TDM-GCC-64/include",
+                "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed",
+                "C:/TDM-GCC-64/x86_64-w64-mingw32/include",
+                "C:/Program Files (x86)/AMD APP SDK/2.9-1/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++",
+                    "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32",
+                    "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward",
+                    "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include",
+                    "C:/TDM-GCC-64/include",
+                    "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed",
+                    "C:/TDM-GCC-64/x86_64-w64-mingw32/include",
+                    "C:/Program Files (x86)/AMD APP SDK/2.9-1/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 3
+}
