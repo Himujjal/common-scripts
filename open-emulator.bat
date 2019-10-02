@@ -1,3 +1,2 @@
 @echo off
-cd D:\Program_Files_3\Android_SDK\emulator
-emulator @Pixel_2_API_23
+F:\install_files\android_sdk\emulator\emulator.exe @Nexus_5X_API_29_x86
