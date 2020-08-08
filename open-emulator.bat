@@ -1,3 +1,2 @@
 @echo off
-cd D:\Program_Files_3\Android_SDK\emulator
-emulator @Pixel_2_API_23
+E:\install_files\android\android-sdk\emulator\emulator.exe -avd Pixel3_API28 -noskin -gpu on -feature WindowsHypervisorPlatform
